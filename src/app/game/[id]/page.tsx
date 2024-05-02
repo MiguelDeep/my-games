@@ -55,14 +55,14 @@ export default async function page({ params }: gamesProps) {
           <h1 className=' text-2xl font-bold mb-6 mt-6'>Plataformas disponíveis:</h1>
          
           <div className='flex gap-4'>
-          {data.platforms.map((date) => (
-            <Span >{date}</Span>
+          {data.platforms.map((date,index) => (
+            <Span key={index.toString()} >{date}</Span>
           ))}
           </div>
           <h1 className=' text-2xl font-bold  mb-6 mt-6'>Categorias</h1>
           <div className='flex gap-4'>
-            {data.categories.map((date) => (
-              <Span>{date}</Span>
+            {data.categories.map((date,index) => (
+              <Span key={index.toString()}>{date}</Span>
             ))}
           </div>
           <h1 className=' text-2xl font-bold  mb-6 mt-6'>Lancamento: {data.release}</h1>
