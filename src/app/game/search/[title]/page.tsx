@@ -1,6 +1,6 @@
 import Container from '@/components/container'
 import GameCard from '@/components/ImageGames'
-import Input from '@/components/Input'
+import Input from '@/components/Input/Input'
 import { api } from '@/services/api'
 import { GamesProps } from '@/Types/types'
 import { decode } from 'punycode'

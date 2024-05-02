@@ -4,7 +4,7 @@ import { GamesProps } from "@/Types/types"
 import { BsArrowRightSquare } from "react-icons/bs"
 import { api } from "@/services/api"
 import Link from "next/link";
-import Input from "@/components/Input";
+import Input from "@/components/Input/Input";
 import GameCard from "@/components/ImageGames";
 
 
